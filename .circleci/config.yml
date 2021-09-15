@@ -147,7 +147,8 @@ workflows:
           
             
             
-      - aws-eks/delete-cluster:
-          cluster-name: jayita-capstone
-          requires:
-           - aws-eks/update-container-image
+#      - aws-eks/delete-cluster:
+#          cluster-name: jayita-capstone
+#          requires:
+#           - aws-eks/update-container-image
+#
