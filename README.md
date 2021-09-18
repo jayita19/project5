@@ -1,4 +1,4 @@
-[![CircleCI](https://app.circleci.com/pipelines/github/Ramrbs1/Capston.svg?style=svg&circle-token=498e546cdfa71e77222b2f068d764b6b8c14ce2e)](https://app.circleci.com/pipelines/github/Ramrbs1/Capston)
+[![CircleCI](https://circleci.com/gh/jayita19/project5/tree/main.svg?style=svg)](https://circleci.com/gh/jayita19/project5/tree/main)
 
 ## Project Overview
  
@@ -18,7 +18,7 @@ Your project goal is to operationalize this working,  rolliout out an appliction
 ---
 
 ## Setup the Environment
-* clone git repo https://github.com/Ramrbs1/Capston.git
+* clone git repo https://github.com/jayita19/project5.git
 * Create a virtualenv and activate it
 * Run `make install` to install the necessary dependencies
 * Run make lint to test the dokcerfile and app.py file
