@@ -105,10 +105,6 @@ jobs:
             kubectl get pods
             
           
-          
-            
-
-          
 workflows:
   default:
     jobs:
@@ -123,7 +119,7 @@ workflows:
       - test-cluster:
           cluster-name: jayita-capstone
           requires:
-            - create-jayita-cluster
+            - aws-eks/create-cluster
 #      - test-cluster:
 #          cluster-name: jayita-capstone
 #          requires:
