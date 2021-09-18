@@ -21,7 +21,7 @@ spec:
         app: jayita-capstone-deployment
     spec:
       containers:
-        - image: jayita19/project6:2.0
+        - image: jayita19/project6:2.1
           imagePullPolicy: Always
           name: jayita-capstone-deployment
           ports:
